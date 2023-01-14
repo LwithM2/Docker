@@ -12,7 +12,7 @@ env:
   GITHUB_USERNAME: LwithM2
   GITHUB_EMAIL: lwithm@126.com
 
-  GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   # Image name and tag. MUST be lowercase
   IMAGE_NAME: docker
