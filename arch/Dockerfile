@@ -5,7 +5,7 @@ FROM archlinux:base-devel
 USER root
 
 # Working Directory
-WORKDIR /root
+WORKDIR ~/project
 
 # Remove Files before copying the Rootfs
 COPY ./arch/remove /tmp/
